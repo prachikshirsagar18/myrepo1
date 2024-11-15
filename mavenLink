@@ -5,3 +5,23 @@
 <maven.compiler.source>1.6</maven.compiler.source>
 <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
+
+3) <build>
+<plugins>
+<plugin>
+<groupId>org.codehaus.mojo</groupId>
+<artifactId>exec-maven-plugin</artifactId>
+<version>3.0.0</version>
+<executions>
+<execution>
+<goals>
+<goal>java</goal>
+</goals>
+</execution>
+</executions>
+<configuration>
+<mainClass>com.example.demo.App</mainClass>
+</configuration>
+</plugin>
+</plugins>
+</build>
