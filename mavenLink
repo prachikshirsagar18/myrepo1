@@ -1,0 +1,2 @@
+1) mvn archetype:generate -DgroupId=com.example.demo -DartifactId=DemoProject
+-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
