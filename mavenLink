@@ -1,2 +1,7 @@
 1) mvn archetype:generate -DgroupId=com.example.demo -DartifactId=DemoProject
 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+2) <properties>
+<maven.compiler.source>1.6</maven.compiler.source>
+<maven.compiler.target>1.6</maven.compiler.target>
+</properties>
